@@ -20,7 +20,7 @@ st.write("This Web App is to help convert your photos to realistic Pencil Sketch
 file_image = st.sidebar.file_uploader("Upload your Photos", type=['jpeg','jpg','png'])
 
 if file_image is None:
-    st.write("You haven't uploaded any image file")
+    st.write("You haven't uploaded any Excel file")
 
 else:
     input_img = Image.open(file_image)
